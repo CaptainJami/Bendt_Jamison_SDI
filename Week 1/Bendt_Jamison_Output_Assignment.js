@@ -4,3 +4,5 @@
  Output Assignment
  */
 
+// variables
+var myAge = (20);
