@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59473739-71d9-4490-804f-e2b757893752" name="Default" comment="" />
+    <list default="true" id="59473739-71d9-4490-804f-e2b757893752" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bendt_Jamison_Output_Assignment.js" afterPath="$PROJECT_DIR$/Bendt_Jamison_Output_Assignment.js" />
+    </list>
     <ignored path="Week 1.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
