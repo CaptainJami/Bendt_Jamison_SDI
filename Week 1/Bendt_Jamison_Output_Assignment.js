@@ -10,4 +10,4 @@ var myHobbies = ("My hobbies are playing video games, drawing, and talking to my
 var playsGames = true;
 
 // outputs
-console.log("Hi my name is Jami " + " " + myAge + " " + myHobbies);
+console.log("Hi my name is Jami, I am " + " " + myAge + " " + myHobbies);
