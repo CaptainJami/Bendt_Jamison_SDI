@@ -11,3 +11,4 @@ var playsGames = true;
 
 // outputs
 console.log("Hi my name is Jami, I am "  + myAge + " years old. " + myHobbies);
+console.log(playsGames);
