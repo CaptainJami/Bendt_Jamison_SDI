@@ -24,4 +24,5 @@ console.log("Sparky got " + pizzaSlices % partySize + " slices of pizza."); // a
 
     //Average Shopping Bill
 groceryTotals = [12, 4, 40, 64, 8]; // declared and assigned an array
+var totalResult = 128; // declared and assigned a variable
 
