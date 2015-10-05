@@ -17,4 +17,5 @@ var partySize = 7; // declared and assigned a variable
 var pizzaSlices = 12 * pizzasOrdered; // declared and assigned a variable
 var result = pizzaSlices / partySize; // declared and assigned a variable
 
+console.log("Each person ate " + result + "slices of pizza. "); // assigned variables an output
 
