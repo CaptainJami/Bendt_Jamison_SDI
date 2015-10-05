@@ -38,4 +38,4 @@ var salesTax = 0.06; // declared and assigned a variable
 var withoutTax = originalPrice - (originalPrice * 0.35) ; // declared and assigned a variable
 var withTax = (originalPrice * salesTax) + withoutTax; // declared and assigned a variable
 
-console.log("Your " + itemDescription + " was originally $" + originalPrice + " but after a " + discountPercentage + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax."); // assigned variables an output
+console.log("The " + itemDescription + " was originally $" + originalPrice + " but after a " + discountPercentage + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax."); // assigned variables an output
