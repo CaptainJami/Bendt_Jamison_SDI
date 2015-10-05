@@ -15,4 +15,6 @@ console.log("Sparky is " + humanYears + "in human years, and is " + dogYears + "
 var pizzasOrdered = 3; // declared and assigned a variable
 var partySize = 7; // declared and assigned a variable
 var pizzaSlices = 12 * pizzasOrdered; // declared and assigned a variable
+var result = pizzaSlices / partySize; // declared and assigned a variable
+
 
