@@ -31,5 +31,6 @@ console.log("You have spent a total of " + totalResult + " on groceries over 5 w
 
     //Discounts
 var originalPrice = 629.13; // declared and assigned a variable
+var dicountPercentage = 0.35; // declared and assigned a variable
 
 
