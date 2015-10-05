@@ -13,4 +13,6 @@ console.log("Sparky is " + humanYears + "in human years, and is " + dogYears + "
 
     //Slice of pie, Part I
 var pizzasOrdered = 3; // declared and assigned a variable
-var partySize = 7; // declared and assigned a variable 
+var partySize = 7; // declared and assigned a variable
+var pizzaSlices = 12 * pizzasOrdered; // declared and assigned a variable
+
