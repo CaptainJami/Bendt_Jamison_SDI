@@ -23,5 +23,5 @@ console.log("Each person ate " + result + "slices of pizza. "); // assigned vari
 console.log("Sparky got " + pizzaSlices % partySize + " slices of pizza."); // assigned variables a secondary output
 
     //Average Shopping Bill
-var groceryTotals = [12, 4, 40, 64, 8]; // declared an array
+groceryTotals = [12, 4, 40, 64, 8]; // declared and assigned an array
 
