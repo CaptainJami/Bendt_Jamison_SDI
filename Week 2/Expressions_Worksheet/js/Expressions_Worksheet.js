@@ -35,4 +35,5 @@ var dicountPercentage = 0.35; // declared and assigned a variable
 var itemDescription = "A new iPhone 6s, you had just purchased from the Apple store."; //  declared and assigned a variable
 var salesTax = 0.06; // declared and assigned a variable
 
+var withTax = (originalPrice * 0.35) * 0.06; //declared and assigned a variable 
 
