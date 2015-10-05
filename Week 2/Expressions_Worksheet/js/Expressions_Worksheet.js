@@ -27,5 +27,6 @@ groceryTotals = [12, 4, 40, 64, 8]; // declared and assigned an array
 var totalResult = 128; // declared and assigned a variable
 var weeklyResult = totalResult / 5; // declared and assigned a variable
 
+console.log("You have spent a total of " + totalResult + " on groceries over 5 weeks. That would be an average of " + weeklyResult + " per week."); // assigned variables an output
 
 
