@@ -16,8 +16,12 @@ var pizzasOrdered = 3; // declared and assigned a variable
 var partySize = 7; // declared and assigned a variable
 var pizzaSlices = 12 * pizzasOrdered; // declared and assigned a variable
 var result = pizzaSlices / partySize; // declared and assigned a variable
-/*
+
 console.log("Each person ate " + result + "slices of pizza. "); // assigned variables an output
-*/
+
     //Slice of Pie, Part II
 console.log("Sparky got " + pizzaSlices % partySize + " slices of pizza."); // assigned variables a secondary output
+
+    //Average Shopping Bill
+var groceryTotals = [12, 4, 40, 64, 8]; // declared an array
+
