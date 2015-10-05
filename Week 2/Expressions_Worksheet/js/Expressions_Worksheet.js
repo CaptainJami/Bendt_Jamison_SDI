@@ -31,9 +31,11 @@ console.log("You have spent a total of " + totalResult + " on groceries over 5 w
 
     //Discounts
 var originalPrice = 629.13; // declared and assigned a variable
-var dicountPercentage = 0.35; // declared and assigned a variable
-var itemDescription = "A new iPhone 6s, you had just purchased from the Apple store."; //  declared and assigned a variable
+var discountPercentage = 35; // declared and assigned a variable
+var itemDescription = "new iPhone 6s, you had just purchased from the Apple store"; //  declared and assigned a variable
 var salesTax = 0.06; // declared and assigned a variable
 
-var withTax = (originalPrice * 0.35) * 0.06; // declared and assigned a variable
-var withoutTax = originalPrice * 0.35; // declared and assigned a variable
+var withoutTax = originalPrice - (originalPrice * 0.35) ; // declared and assigned a variable
+var withTax = (originalPrice * salesTax) + withoutTax; // declared and assigned a variable
+
+console.log("Your " + itemDescription + " was originally " + originalPrice + " but after a " + discountPercentage + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax."); // assigned variables an output
