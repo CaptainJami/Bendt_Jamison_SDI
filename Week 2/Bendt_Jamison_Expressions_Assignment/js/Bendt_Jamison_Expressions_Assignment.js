@@ -12,11 +12,11 @@ var totalPrice; // declared a number variable of all games prices
 var prices = []; // declared an number array of prices
 
 
-alert("I would like to get to know you! ");
+alert("I want to know what kind of video games you like! ");
 favoriteGame = prompt("What is your favorite game?: "); //assigned string variable a prompt
 secondFavorite = prompt("What is your second favorite game?: "); //assigned a string variable a prompt
-alert("You have good taste in video games, and that is crazy I love those games!");
-console.log("You have good taste in video games, and that is crazy I love those games!");
+alert("You like " + favoriteGame + " and " + secondFavorite + ", you have good taste in video games, and that is crazy I love those games too !");
+console.log("You like " + favoriteGame + " and " + secondFavorite + ", you have good taste in video games, and that is crazy I love those games too !");
 
 gamesOwned = prompt("How many games do you own? (we are doing 3 for the sake of the calculation) : ");
 gamesOwned = Number(gamesOwned);
