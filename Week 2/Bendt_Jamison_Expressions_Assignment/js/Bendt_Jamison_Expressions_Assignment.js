@@ -5,8 +5,10 @@
 */
 
 // Variables
-var gamePrice;
-var gamesOwned;
-var favoriteGame;
-var totalPrice;
-var prices = [];
+var gamePrice; // declared a variable
+var gamesOwned; // declared a variable
+var favoriteGame; // declared a variable
+var totalPrice; // declared a variable
+var prices = []; // declared an array
+
+prices[0] = prompt("Enter price of the first favorite game you own: ");
