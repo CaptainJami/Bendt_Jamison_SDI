@@ -20,3 +20,6 @@ secondFavorite = prompt("What is your second favorite game?: "); //assigned a st
 
 gamesOwned = prompt("How many games do you own?: ");
 gamesOwned = Number(gamesOwned);
+
+gamePrice = prompt("The price of your most expensive game?: ");
+gamePrice = Numbers(gamePrice);
