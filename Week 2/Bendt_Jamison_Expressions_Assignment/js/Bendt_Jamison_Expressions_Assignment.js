@@ -9,4 +9,4 @@ var gamePrice;
 var gamesOwned;
 var favoriteGame;
 var totalPrice;
-
+var prices = [];
