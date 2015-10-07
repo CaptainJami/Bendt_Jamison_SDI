@@ -7,3 +7,4 @@
 // Variables
 var gamePrice;
 var gamesOwned;
+var favoriteGame;
