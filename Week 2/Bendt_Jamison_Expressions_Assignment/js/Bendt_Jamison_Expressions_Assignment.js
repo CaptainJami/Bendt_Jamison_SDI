@@ -16,3 +16,4 @@ prices[0] = prompt("Enter price of your favorite game: "); // assigned the array
 prices[1] = prompt("Enter price of your second favorite game: "); // assigned the array a prompt
 
 favoriteGame = prompt("What is your favorite game?: "); //assigned string variable a prompt
+secondFavorite = prompt("What is your second favorite game?: "); //assigned a string variable a prompt
