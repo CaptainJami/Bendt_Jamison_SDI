@@ -15,3 +15,4 @@ var prices = []; // declared an number array of prices
 prices[0] = prompt("Enter price of your favorite game: "); // assigned the array a prompt
 prices[1] = prompt("Enter price of your second favorite game: "); // assigned the array a prompt
 
+favoriteGame = prompt("What is your favorite game?: "); //assigned string variable a prompt
