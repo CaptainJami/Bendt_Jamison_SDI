@@ -17,3 +17,6 @@ prices[1] = prompt("Enter price of your second favorite game: "); // assigned th
 
 favoriteGame = prompt("What is your favorite game?: "); //assigned string variable a prompt
 secondFavorite = prompt("What is your second favorite game?: "); //assigned a string variable a prompt
+
+gamesOwned = prompt("How many games do you own?: ");
+gamesOwned = Number(gamesOwned);
