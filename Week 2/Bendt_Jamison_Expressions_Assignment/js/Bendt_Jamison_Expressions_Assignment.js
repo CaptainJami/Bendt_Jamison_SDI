@@ -21,7 +21,7 @@ console.log("You like " + favoriteGame + " and " + secondFavorite + ", you have 
 
 gamesOwned = prompt("How many games do you own? (we are going to do at least 3 for the sake of the calculation): "); // an alert for the start of the calculation
 gamesOwned = Number(gamesOwned); // declared variable as a number
-alert("Well we are just going to do at least 3 games, so get those prices ready and we will do some math!"); // an alert for the start of the calculation
+alert("Tha is awesome! Unfortunately we are just going to just use 3 games, so get those prices ready and we will do some math!"); // an alert for the start of the calculation
 
 prices[0] = prompt("Enter price of the first game on your list: "); // assigned the array a prompt
 prices[1] = prompt("Enter price of the second game on your list: "); // assigned the array a prompt
@@ -37,3 +37,15 @@ alert("You have a total of " + gamesOwned + " games, but the 3 games you listed 
     "$" + averagePrice + " is the average of the 3 game prices you listed." ); // assigned the array and number variable to alert
 console.log("You have a total of " + gamesOwned + " games, but the 3 games you listed come out for a total price of $" + totalPrice + ", that is crazy I hope you enjoy them!\n \n" +
     "$" + averagePrice + " is the average of the 3 game prices you listed." ); // assigned the alert to the console.log
+
+/*
+Test:
+    prices
+        [0]- 29.99
+        [1]- 59.95
+        [2]- 120.23
+
+    result =
+        totalPrice = $209.18
+        averagePrice = $69.72666666666667
+ */
