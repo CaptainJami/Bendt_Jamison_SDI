@@ -24,3 +24,4 @@ var gasCapacity = prompt("How many gallons of gas can your car hold?");
 var gallonsLeft;
 
 gasEfficiency = Number(gasEfficiency);
+gaugeReading = Number(gaugeReading);
