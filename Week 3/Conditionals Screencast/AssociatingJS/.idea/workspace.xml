@@ -24,8 +24,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9101796">
-              <caret line="75" column="77" selection-start-line="75" selection-start-column="77" selection-end-line="75" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.8652695">
+              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
               <folding>
                 <element signature="e#0#55#0" expanded="false" />
                 <element signature="e#81#104#0" expanded="false" />
@@ -37,6 +37,8 @@
                 <element signature="e#916#1030#0" expanded="false" />
                 <element signature="e#1255#1300#0" expanded="false" />
                 <element signature="e#1304#1346#0" expanded="false" />
+                <element signature="e#1776#1812#0" expanded="false" />
+                <element signature="e#1816#1850#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -219,6 +221,8 @@
             <element signature="e#916#1030#0" expanded="false" />
             <element signature="e#1255#1300#0" expanded="false" />
             <element signature="e#1304#1346#0" expanded="false" />
+            <element signature="e#1776#1812#0" expanded="false" />
+            <element signature="e#1816#1850#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -233,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9101796">
-          <caret line="75" column="77" selection-start-line="75" selection-start-column="77" selection-end-line="75" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.8652695">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
           <folding>
             <element signature="e#0#55#0" expanded="false" />
             <element signature="e#81#104#0" expanded="false" />
@@ -246,6 +250,8 @@
             <element signature="e#916#1030#0" expanded="false" />
             <element signature="e#1255#1300#0" expanded="false" />
             <element signature="e#1304#1346#0" expanded="false" />
+            <element signature="e#1776#1812#0" expanded="false" />
+            <element signature="e#1816#1850#0" expanded="false" />
           </folding>
         </state>
       </provider>
