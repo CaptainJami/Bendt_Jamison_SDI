@@ -60,3 +60,4 @@ if(currentGrade >= 95){
     grade = "F";
 }
 
+console.log("You have a " + currentGrade + "%, which means you have earned a(n) " + grade + " in the class!");
