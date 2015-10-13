@@ -26,3 +26,5 @@ var gallonsLeft;
 gasEfficiency = Number(gasEfficiency);
 gaugeReading = Number(gaugeReading);
 gasCapacity = Number(gasCapacity);
+
+gallonsLeft = gasEfficiency * gaugeReading + gasCapacity;
