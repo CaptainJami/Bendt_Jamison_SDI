@@ -6,7 +6,7 @@
 
 // Stuff your face
 
-var competitorsWeight = prompt();
+var competitorsWeight = prompt("What is your weight (in pounds)?");
 
 
 if(competitorsWeight >= 250 ){
