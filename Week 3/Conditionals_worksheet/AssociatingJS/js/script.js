@@ -40,7 +40,3 @@ if(gallonsLeft >= 200 / gasEfficiency) {
 //variable(s)
 var currentGrade = prompt("What is your number grade currently in this class? (rounded to nearest number)");
 
-
-currentGrade = Number(currentGrade);
-
-}
