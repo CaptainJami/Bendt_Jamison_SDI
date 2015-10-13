@@ -20,5 +20,5 @@ if(competitorsWeight >= 250 ){
 //variables
 var gasEfficiency = prompt("What is your cars miles per gallon?");
 var gaugeReading = prompt("What is the gas gauge reading? (in decimal percentage)");
-
+var gasCapacity = prompt("How many gallons of gas can your car hold?");
 
