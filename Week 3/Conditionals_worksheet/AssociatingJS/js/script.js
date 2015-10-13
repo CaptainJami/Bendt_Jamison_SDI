@@ -42,3 +42,21 @@ var currentGrade = prompt("What is your number grade currently in this class? (r
 
 currentGrade = Number(currentGrade);
 
+if(currentGrade >= 95){
+    grade = "A+";
+}else if (currentGrade >= 90){
+    grade = "A";
+}else if (currentGrade >= 85){
+    grade = "B+";
+}else if (currentGrade >= 80){
+    grade = "B";
+}else if (currentGrade >= 75){
+    grade = "C+";
+}else if (currentGrade >= 73){
+    grade = "C";
+}else if (currentGrade >= 70){
+    grade = "D";
+}else if (currentGrade <= 69){
+    grade = "F";
+}
+
