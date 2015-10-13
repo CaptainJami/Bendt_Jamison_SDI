@@ -1,7 +1,7 @@
 /**
  * Jamison Bendt
  * SDI 1015
- * Assignment Name
+ * Conditionals Worksheet
  */
 
 // Stuff your face
@@ -19,5 +19,6 @@ if(competitorsWeight >= 250 ){
 
 //variables
 var gasEfficiency = prompt("What is your cars miles per gallon?");
+var gaugeReading = prompt("What is the gas gauge reading? (in decimal percentage)");
 
 
