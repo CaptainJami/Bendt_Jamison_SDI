@@ -61,3 +61,7 @@ if(currentGrade >= 95){
 }
 
 console.log("You have a " + currentGrade + "%, which means you have earned a(n) " + grade + " in the class!");
+
+
+// Movie Ticket Price
+var movieTime = prompt("What time is the movie you want to see?");
