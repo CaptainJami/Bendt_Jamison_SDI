@@ -22,3 +22,13 @@ var leftOver1 = budget - candyBarPrice1Total;
 var leftOver2 = budget - candyBarPrice2Total;
 var neededAmount = candyBarTotal - (candyBarPrice1 + candyBarPrice2);
 var price = budget - candyBarTotal;
+
+if(station == "Yes" || station == "yes"){
+    station = true;
+}else{
+    station = false;
+}
+
+var gasStation = (station === true) ? "The station is open, lets get some candy!" : "The station is closed, I guess I will wait until tomorrow.";
+
+console.log(gasStation);
