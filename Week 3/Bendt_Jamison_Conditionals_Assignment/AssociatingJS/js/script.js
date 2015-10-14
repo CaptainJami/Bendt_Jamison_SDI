@@ -1,3 +1,5 @@
 /**
- * Created by Jamison on 10/14/15.
+ * Jamison Bendt
+ * SDI 1015
+ * Conditionals Assignment
  */
