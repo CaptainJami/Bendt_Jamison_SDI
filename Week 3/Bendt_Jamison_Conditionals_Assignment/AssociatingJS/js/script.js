@@ -15,3 +15,4 @@ candyBarPrice2 = Number(candyBarPrice2);
 var candyBarPrice1Total = (candyBarPrice1 * salesTax) + candyBarPrice1;
 var candyBarPrice2Total = (candyBarPrice2 * salesTax) + candyBarPrice2;
 var candyBarTax = (candyBarPrice1 + candyBarPrice2) * salesTax;
+var candyBarTotal = candyBarTax + candyBarPrice1 + candyBarPrice2;
