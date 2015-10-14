@@ -19,3 +19,4 @@ var candyBarTotal = candyBarTax + candyBarPrice1 + candyBarPrice2;
 var totalPrice = candyBarTotal * salesTax;
 var leftOver1 = budget - candyBarPrice1Total;
 var leftOver2 = budget - candyBarPrice2Total;
+var neededAmount = candyBarTotal - (candyBarPrice1 + candyBarPrice2);
