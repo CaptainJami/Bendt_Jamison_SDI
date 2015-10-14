@@ -17,11 +17,11 @@ var candyBarPrice1Total = (candyBarPrice1 * salesTax) + candyBarPrice1;
 var candyBarPrice2Total = (candyBarPrice2 * salesTax) + candyBarPrice2;
 var candyBarTax = (candyBarPrice1 + candyBarPrice2) * salesTax;
 var candyBarTotal = candyBarTax + candyBarPrice1 + candyBarPrice2;
-var totalPrice = candyBarTotal * salesTax;
+var totalPrice = (candyBarTotal * salesTax) + candyBarTotal;
 var leftOver1 = budget - candyBarPrice1Total;
 var leftOver2 = budget - candyBarPrice2Total;
 var neededAmount = candyBarTotal - (candyBarPrice1 + candyBarPrice2);
-var price = budget - candyBarTotal;
+var price = budget - totalPrice;
 
 if(station == "Yes" || station == "yes"){
     station = true;
@@ -39,5 +39,7 @@ if(candyBarPrice1Total <= budget || candyBarPrice2Total <= budget){
 }
 
 if(candyBarTotal <= budget){
-    console
+    console.log("You have enough for both of the candy bars with $" + price + " left over.");
+}else{
+    console.log("Sorry you don't have enough for both candy bars you were short $" + neededAmount);
 }
