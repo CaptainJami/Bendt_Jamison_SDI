@@ -32,3 +32,12 @@ if(station == "Yes" || station == "yes"){
 var gasStation = (station === true) ? "The station is open, lets get some candy!" : "The station is closed, I guess I will wait until tomorrow.";
 
 console.log(gasStation);
+
+if(candyBarPrice1Total <= budget || candyBarPrice2Total <= budget){
+    console.log("You have enough money for only the first candy bar with $" + leftOver1 + " left over.");
+    console.log("You have enough money for only the second candy bar with $" + leftOver2 + " left over.");
+}
+
+if(candyBarTotal <= budget){
+    console
+}
