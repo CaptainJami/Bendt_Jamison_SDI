@@ -68,3 +68,9 @@ var movieTime = prompt("What time is the movie you want to see?");
 var customerAge = prompt("How old are you?");
 var ticketDiscount = 7.00;
 var normalPrice = 12.00;
+
+if(movieTime >= 3 && movieTime <= 5 || customerAge <= 10 || customerAge >= 55){
+    console.log("The ticket price is $" + ticketDiscount + ".");
+}else{
+    console.log("The ticket price is $" + normalPrice + ".");
+}
