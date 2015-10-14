@@ -67,3 +67,4 @@ console.log("You have a " + currentGrade + "%, which means you have earned a(n) 
 var movieTime = prompt("What time is the movie you want to see?");
 var customerAge = prompt("How old are you?");
 var ticketDiscount = 7.00;
+var normalPrice = 12.00;
