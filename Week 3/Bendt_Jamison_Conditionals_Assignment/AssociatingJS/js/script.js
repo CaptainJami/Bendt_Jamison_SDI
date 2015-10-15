@@ -26,9 +26,15 @@ if(budget === ""){
 }
 budget = Number(budget);
 
-var candyBarPrice1 = Number(prompt("What is the price of the first candy bar?"));
+var candyBarPrice1 = prompt("What is the price of the first candy bar?");
 
-
+if(candyBarPrice1 === ""){
+    candyBarPrice1 = prompt("Please enter a valid number.");
+    console.log("$" + candyBarPrice1 + " for a candy bar? That is crazy.");
+}else{
+    console.log("$" + candyBarPrice1 + " for a candy bar? That is crazy.");
+}
+candyBarPrice1 = Number(candyBarPrice1);
 
 var candyBarPrice2 = Number(prompt("What is the price of the second candy bar?"));
 
