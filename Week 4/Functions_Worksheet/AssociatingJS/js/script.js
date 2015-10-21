@@ -22,3 +22,4 @@ var weight = function(pounds){
     var stung = 8.66666667 * pounds;
     return stung;
 };
+var answer = weight(prompt("What is the animals weight in pounds?: "));
