@@ -13,3 +13,4 @@ var circle = function(radius){
 };
 
 var answer = circle(prompt("What is the radius of the circle?: "));
+console.log("The circumference of the circle is " + answer);
