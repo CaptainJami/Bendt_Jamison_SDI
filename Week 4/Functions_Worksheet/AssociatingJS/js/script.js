@@ -14,3 +14,11 @@ var circle = function(radius){
 
 var answer = circle(prompt("What is the radius of the circle?: "));
 console.log("The circumference of the circle is " + answer);
+
+
+// Stung!
+
+var weight = function(pounds){
+    var stung = 8.66666667 * pounds;
+    return stung;
+};
