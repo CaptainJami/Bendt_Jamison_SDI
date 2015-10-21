@@ -22,4 +22,5 @@ var weight = function(pounds){
     var stung = 8.66666667 * pounds;
     return stung;
 };
-var answer = weight(prompt("What is the animals weight in pounds?: "));
+var answer2 = weight(prompt("What is the animals weight in pounds?: "));
+console.log("It takes " + answer2 + " bee stings to kill this animal.");
