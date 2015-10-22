@@ -20,6 +20,11 @@ function lotteryValidation(lotteryPrompt){
 
         timeClicked++;
 
+        if(timesClicked === 5){
+            console.log("Terminating process.");
+            break;
+        }
+
 
     }
 }
