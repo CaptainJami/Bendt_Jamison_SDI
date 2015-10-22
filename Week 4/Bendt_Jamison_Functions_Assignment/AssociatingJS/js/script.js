@@ -14,7 +14,9 @@ var powerballWin = randomNumber(1, 35, 1);
 function lotteryValidation(lotteryPrompt){
     var timesClicked = 1;
 
-    
+    while(lotteryPrompt === ""){
+
+      
 
 
     }
