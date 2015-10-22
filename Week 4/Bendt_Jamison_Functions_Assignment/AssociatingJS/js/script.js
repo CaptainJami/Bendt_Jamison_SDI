@@ -46,4 +46,6 @@ lotteryPrompt = lotteryValidation(lotteryPrompt);
 
 if(lotteryPrompt === "FL" || lotteryPrompt === "Fl" || lotteryPrompt === "fl"){
     console.log("Your Florida lottery numbers are: " + floridaNumbers);
+}else if(lotteryPrompt === "PB" || lotteryPrompt === "Pb" || lotteryPrompt === "pb"){
+
 }
