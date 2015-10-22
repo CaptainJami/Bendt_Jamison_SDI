@@ -41,3 +41,6 @@ function randomNumber(min, max, num){
     }
     return random;
 }
+
+lotteryPrompt = lotteryValidation(lotteryPrompt);
+
