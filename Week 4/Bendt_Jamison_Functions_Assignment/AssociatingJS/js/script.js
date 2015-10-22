@@ -20,7 +20,7 @@ function lotteryValidation(lotteryPrompt){
         // Prompt asking for re-entering a number
         lotteryPrompt = prompt("There is nothing being entered. \n\n Please enter valid input.");
         // Increments the code
-        timeClicked++;
+        timesClicked++;
         // Runs the code X amount of times
         if(timesClicked === 5){
             console.log("Terminating process.");
@@ -63,3 +63,21 @@ if(lotteryPrompt === "FL" || lotteryPrompt === "Fl" || lotteryPrompt === "fl"){
     // If neither were entered this will printed to the console
     console.log("That is not what I was looking for.");
 }
+
+
+/**
+ Test 1:
+
+ Typed fl
+
+ Your Florida lottery numbers are: 49,36,25,20,5,43
+
+
+ Test 2:
+
+ Typed Pb
+
+ Your powerball numbers are: 32,37,6,33,33 with PB: 7
+
+
+ */
