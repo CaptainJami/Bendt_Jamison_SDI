@@ -25,7 +25,7 @@ function lotteryValidation(lotteryPrompt){
             break;
         }
 
-
     }
+    return lotteryPrompt;
 }
 
