@@ -29,3 +29,4 @@ function lotteryValidation(lotteryPrompt){
     return lotteryPrompt;
 }
 
+lotteryPrompt = prompt("Please enter which lottery number you'd like to play:\n\nEnter Fl for Florida Lottery. \nEnter Pb for Powerball Lottery.");
