@@ -44,3 +44,6 @@ function randomNumber(min, max, num){
 
 lotteryPrompt = lotteryValidation(lotteryPrompt);
 
+if(lotteryPrompt === "FL" || lotteryPrompt === "Fl" || lotteryPrompt === "fl"){
+    console.log("Your Florida lottery numbers are: " + floridaNumbers);
+}
