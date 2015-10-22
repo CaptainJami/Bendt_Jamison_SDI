@@ -30,3 +30,14 @@ function lotteryValidation(lotteryPrompt){
 }
 
 lotteryPrompt = prompt("Please enter which lottery number you'd like to play:\n\nEnter Fl for Florida Lottery. \nEnter Pb for Powerball Lottery.");
+
+function randomNumber(min, max, num){
+    var random = [];
+    var randomNum;
+
+    for(var i = 0; i < num; i++){
+        randomNum = Math.random() * (max - min) + min;
+        random[i] = Math.round(randomNum);
+    }
+    return random;
+}
