@@ -16,7 +16,9 @@ function lotteryValidation(lotteryPrompt){
 
     while(lotteryPrompt === ""){
 
-      
+        lotteryPrompt = prompt("There is nothing being entered. \n\n Please enter valid input.");
+
+        timeClicked++;
 
 
     }
